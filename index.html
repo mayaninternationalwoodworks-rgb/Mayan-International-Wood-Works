@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Mayan International Wooden Works - Premium wooden furniture, doors, chairs, beds, dining sets, sofas and custom furniture.">
+    
+    <meta name="theme-color" content="#4b2e1f">
+
+    <title>Mayan International Wooden Works</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="top-bar">
+
+    <div>
+        🚚 Quality Furniture | Custom Designs Available
+    </div>
+
+    <div>
+        📞 9074245231
+        &nbsp; | &nbsp;
+        ✉️ mayaninternationalwoodworks@gmail.com
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="main-header">
+
+    <div class="brand">
+
+        <div class="logo">
+            M
+        </div>
+
+        <div>
+
+            <h1>MAYAN</h1>
+
+            <p>
+                INTERNATIONAL WOODEN WORKS
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search chairs, beds, doors, sofas..."
+        >
+
+        <button onclick="searchProducts()">
+            🔍
+        </button>
+
+    </div>
+
+
+    <button
+        class="cart-button"
+        onclick="showCart()">
+
+        🛒 Cart
+        <span id="cartCount">0</span>
+
+    </button>
+
+</header>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<nav class="navigation">
+
+    <a href="#home">Home</a>
+
+    <a href="#products">All Furniture</a>
+
+    <a href="#doors">Doors</a>
+
+    <a href="#chairs">Chairs</a>
+
+    <a href="#bedroom">Bedroom</a>
+
+    <a href="#dining">Dining</a>
+
+    <a href="#living">Living</a>
+
+    <a href="#office">Office</a>
+
+    <a href="#contact">Contact</a>
+
+</nav>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <img
+        src="images/mayan-banner.png"
+        alt="Mayan International Wooden Works furniture">
+
+    <div class="hero-content">
+
+        <span>
+            MAYAN INTERNATIONAL WOODEN WORKS
+        </span>
+
+        <h2>
+            Furniture That Makes Your Home Beautiful
+        </h2>
+
+        <p>
+            Premium furniture, quality craftsmanship
+            and custom wooden works for every space.
+        </p>
+
+        <a href="#products" class="hero-button">
+            Explore Furniture →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FEATURES
+===================================================== -->
+
+<section class="features">
+
+    <div class="feature">
+        <span>🪵</span>
+        <strong>Quality Materials</strong>
+        <small>Made for long-lasting use</small>
+    </div>
+
+    <div class="feature">
+        <span>🛠️</span>
+        <strong>Custom Furniture</strong>
+        <small>Design according to your needs</small>
+    </div>
+
+    <div class="feature">
+        <span>💰</span>
+        <strong>Attractive Prices</strong>
+        <small>Great value for your home</small>
+    </div>
+
+    <div class="feature">
+        <span>💬</span>
+        <strong>Easy Enquiry</strong>
+        <small>Contact us through WhatsApp</small>
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CATEGORIES
+===================================================== -->
+
+<section class="categories">
+
+    <div class="section-title">
+
+        <span>EXPLORE</span>
+
+        <h2>
+            Shop by Category
+        </h2>
+
+        <p>
+            Find furniture for every room in your home.
+        </p>
+
+    </div>
+
+
+    <div class="category-buttons">
+
+        <button onclick="filterCategory('all')">
+            🏠 All
+        </button>
+
+        <button onclick="filterCategory('Doors & Frames')">
+            🚪 Doors & Frames
+        </button>
+
+        <button onclick="filterCategory('Chairs & Seating')">
+            🪑 Chairs & Seating
+        </button>
+
+        <button onclick="filterCategory('Bedroom')">
+            🛏️ Bedroom
+        </button>
+
+        <button onclick="filterCategory('Dining')">
+            🍽️ Dining
+        </button>
+
+        <button onclick="filterCategory('Living Room')">
+            🛋️ Living Room
+        </button>
+
+        <button onclick="filterCategory('Office & Study')">
+            💻 Office & Study
+        </button>
+
+        <button onclick="filterCategory('Storage')">
+            🗄️ Storage
+        </button>
+
+        <button onclick="filterCategory('Custom Furniture')">
+            ✨ Custom Furniture
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PRODUCT AREA
+===================================================== -->
+
+<main id="products">
+
+    <!-- Products will automatically appear here -->
+
+</main>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about" id="about">
+
+    <div class="about-image">
+
+        <img
+            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80"
+            alt="Beautiful wooden furniture interior">
+
+    </div>
+
+
+    <div class="about-content">
+
+        <span>
+            ABOUT MAYAN
+        </span>
+
+        <h2>
+            Crafted for Beautiful Homes
+        </h2>
+
+        <p>
+            Mayan International Wooden Works provides
+            quality furniture for homes, offices and
+            commercial spaces.
+        </p>
+
+        <p>
+            From wooden doors and frames to chairs,
+            beds, dining sets, sofas, storage furniture
+            and custom designs, we create furniture
+            according to your requirements.
+        </p>
+
+        <a
+            href="https://wa.me/919074245231"
+            target="_blank"
+            class="whatsapp-button">
+
+            💬 Talk to Mayan on WhatsApp
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+
+        <span>GET IN TOUCH</span>
+
+        <h2>
+            Contact Mayan International Wooden Works
+        </h2>
+
+        <p>
+            Need a custom size, design or quotation?
+            Contact us today.
+        </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+        <a href="tel:9074245231">
+
+            <span>📞</span>
+
+            <strong>
+                Customer Support
+            </strong>
+
+            <p>
+                9074245231
+            </p>
+
+        </a>
+
+
+        <a href="https://wa.me/919074245231"
+           target="_blank">
+
+            <span>💬</span>
+
+            <strong>
+                WhatsApp
+            </strong>
+
+            <p>
+                Chat with us
+            </p>
+
+        </a>
+
+
+        <a href="mailto:mayaninternationalwoodworks@gmail.com">
+
+            <span>✉️</span>
+
+            <strong>
+                Email
+            </strong>
+
+            <p>
+                mayaninternationalwoodworks@gmail.com
+            </p>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CART MODAL
+===================================================== -->
+
+<div
+    id="cartModal"
+    class="cart-modal">
+
+    <div class="cart-box">
+
+        <button
+            class="close-cart"
+            onclick="closeCart()">
+
+            ×
+
+        </button>
+
+
+        <h2>
+            🛒 Your Shopping Cart
+        </h2>
+
+
+        <div id="cartItems">
+
+            Your cart is empty.
+
+        </div>
+
+
+        <div class="cart-total"
+             id="cartTotal">
+
+            Total: ₹0
+
+        </div>
+
+
+        <button
+            class="checkout-button"
+            onclick="checkoutWhatsApp()">
+
+            💬 Order / Enquire on WhatsApp
+
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-brand">
+
+        <div class="footer-logo">
+            M
+        </div>
+
+        <div>
+
+            <h2>
+                MAYAN
+            </h2>
+
+            <p>
+                INTERNATIONAL WOODEN WORKS
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <p>
+        Premium wooden furniture for beautiful homes.
+    </p>
+
+
+    <div class="footer-contact">
+
+        📞 9074245231
+
+        &nbsp; | &nbsp;
+
+        ✉️ mayaniternationalwoodworks@gmail.com
+
+    </div>
+
+
+    <hr>
+
+
+    <p class="copyright">
+
+        © 2026 Mayan International Wooden Works.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+
+<!-- =====================================================
+     JAVASCRIPT FILES
+===================================================== -->
+
+<script src="products.js"></script>
+
+<script src="display-products.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
